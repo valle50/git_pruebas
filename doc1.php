@@ -8,5 +8,28 @@
 </head>
 <body>
     <h1>Documento de prueba</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <input type="text" name="" class="clase">
+            </div>
+            <div class="col-md-4">
+                <input type="text" name="" class="clase">
+            </div>
+            <div class="col-md-4">
+                <input type="text" name="" class="clase">
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        $(document).ready(function(){
+
+            $('.clase').keyup(function(){
+                console.log($(this).val());
+            });
+        });
+    </script>
 </body>
 </html>
