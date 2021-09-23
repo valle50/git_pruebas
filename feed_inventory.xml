@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' ?>
+        <AmazonEnvelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='amzn-envelope.xsd'>
+        <Header>
+            <DocumentVersion>1.01</DocumentVersion>  
+             <MerchantIdentifier> A2RCJK2NBH9C2 </MerchantIdentifier>
+        </Header>
+        <MessageType>Inventory</MessageType>
+        <Message>
+            <MessageID>1</MessageID> 
+            <OperationType>Update</OperationType>
+            
+                <Inventory>
+                    <SKU>LPNTAUL410MA</SKU>
+                    <Quantity>0</Quantity> 
+                    <FulfillmentLatency>1</FulfillmentLatency> 
+                </Inventory>
+                <Inventory>
+                    <SKU>ENENFNZRL-KRX73-R1</SKU>
+                    <Quantity>5</Quantity> 
+                    <FulfillmentLatency>1</FulfillmentLatency> 
+                </Inventory>
+        </Message>
+        </AmazonEnvelope>
