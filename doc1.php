@@ -29,6 +29,7 @@
             $('.clase').keyup(function(){
                 console.log($(this).val() );
                 alert("");
+                //comentario
             });
         });
     </script>
