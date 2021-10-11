@@ -27,7 +27,8 @@
         $(document).ready(function(){
 
             $('.clase').keyup(function(){
-                console.log($(this).val());
+                console.log($(this).val() );
+                alert("");
             });
         });
     </script>
