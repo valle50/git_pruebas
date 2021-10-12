@@ -11,6 +11,7 @@
 <body>
     <h1>Documento de prueba</h1>
     <h6> Pruebas </h6>
+    <p>parrafo</p>
     <div class="container">
         <div class="row">
             <div class="col-md-3">
