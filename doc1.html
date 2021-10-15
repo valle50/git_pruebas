@@ -34,17 +34,14 @@
             var array = ["uno", "dos", "tres", "cuatro", 5, 6, 7];
             var array2 = [{"uno": 1,"dos": 2,"tres": 3}];
 
-            for (const iterator of array2) {
-                console.log(iterator["uno"]);
+            for (const iterator of array2){
+                console.log(iterator["tres"]);
             }
-
             for (let index = 0; index < array2.length; index++) {
                 console.log(array2[index]["uno"]);
                 console.log(array2[index]["dos"]);
                 console.log(array2[index]["tres"]);                
             }
-
-            alert("prueba commit en rama equivocada");
         });
     </script>
 </body>
