@@ -21,7 +21,7 @@
             <div class="col-md-3">
                 <input type="text" name="" class="clase">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <input type="text" name="" class="clase">
             </div>
         </div>
@@ -34,8 +34,10 @@
             var array = ["uno", "dos", "tres", "cuatro", 5, 6, 7];
             var array2 = [{"uno": 1,"dos": 2,"tres": 3}];
 
-            for (const iterator of array2) {
-                console.log(iterator["uno"]);
+            for (const iterator of array2)
+            {
+                console.log(iterator["dos"]);
+                console.warn("hola");
             }
 
             for (let index = 0; index < array2.length; index++) {
@@ -44,7 +46,7 @@
                 console.log(array2[index]["tres"]);                
             }
 
-            alert("prueba commit en rama equivocada");
+            alert("cambio mensaje");
         });
     </script>
 </body>
