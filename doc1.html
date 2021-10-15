@@ -21,7 +21,7 @@
             <div class="col-md-3">
                 <input type="text" name="" class="clase">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <input type="text" name="" class="clase">
             </div>
         </div>
@@ -36,12 +36,15 @@
 
             for (const iterator of array2){
                 console.log(iterator["tres"]);
+                console.warn("hola");
             }
             for (let index = 0; index < array2.length; index++) {
                 console.log(array2[index]["uno"]);
                 console.log(array2[index]["dos"]);
                 console.log(array2[index]["tres"]);                
             }
+
+            alert("cambio mensaje");
         });
     </script>
 </body>
